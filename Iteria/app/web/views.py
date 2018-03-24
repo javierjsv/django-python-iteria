@@ -1,5 +1,6 @@
-from django.shortcuts import render
-from django.http import HttpResponse
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 
-def home(request):
-    return HttpResponse('Hola mundo')
+from django.shortcuts import render
+
+# Create your views here.
